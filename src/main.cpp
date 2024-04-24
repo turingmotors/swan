@@ -42,7 +42,7 @@ struct Args {
   std::string weight_path = "./model/stories15M.bin";
   std::string vocab_path = "./model/tokenizer.bin";
   uint64_t max_seq = 256;
-  float temp = 0;
+  float temp = 0.5;
   bool color = false;
   bool print_softmax = false;
   bool log = false;

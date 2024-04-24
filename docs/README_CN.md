@@ -41,6 +41,7 @@ $ cd swan
 从[huggingface.co/karpathy/tinyllamas](https://huggingface.co/karpathy/tinyllamas/tree/main)下载15M参数模型:
 ```bash
 wget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.bin -O model/stories15M.bin
+wget https://raw.githubusercontent.com/leloykun/llama2.cpp/master/tokenizer.bin -O model/tokenizer.bin
 ```
 
 ## 构建
